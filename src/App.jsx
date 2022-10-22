@@ -1,12 +1,11 @@
-import React, { useState } from 'react'
-
+import React, { useState } from "react";
 
 const App = () => {
   return (
     <div className="">
       <h1>App</h1>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
