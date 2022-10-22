@@ -1,3 +1,6 @@
+import { BiSun } from "react-icons/bi";
+import { CgBulb } from "react-icons/cg";
+
 export const randy = () => Math.floor(Math.random() * 1000000);
 
 export const dataInfo = [
@@ -90,5 +93,49 @@ export const dataInfo = [
     linkUrl: "https://razoy.netlify.app/",
     stack: ["React.js", "Context Api", "Styled-components"],
     tool: "Javascript",
+  },
+];
+
+export const navData = [
+  {
+    id: randy(),
+    name: "Home",
+    link: "#home",
+  },
+  {
+    id: randy(),
+    name: "About Me",
+    link: "#about",
+  },
+  {
+    id: randy(),
+    name: "Portfolio",
+    link: "#portfolio",
+  },
+  {
+    id: randy(),
+    name: "Services",
+    link: "#services",
+  },
+  {
+    id: randy(),
+    name: "Contact Me",
+    link: "#contact",
+  },
+];
+
+export const LightMode = [
+  {
+    id: randy(),
+    name: "Light",
+    link: <BiSun />,
+  },
+];
+
+export const DarkMode = [
+  {
+    id: randy(),
+    name: "Dark",
+    link: <CgBulb />,
   },
 ];

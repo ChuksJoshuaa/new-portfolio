@@ -1,10 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import { Navbar, Footer } from "./components";
+import { Home } from "./pages";
 
 const App = () => {
   return (
-    <div className="">
-      <h1>App</h1>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 };
 
