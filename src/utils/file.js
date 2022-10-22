@@ -9,6 +9,7 @@ export const dataInfo = [
     gitUrl: "https://github.com/ChuksJoshuaa/TikTik-Video",
     linkUrl: "https://tik-tik-video.vercel.app/",
     stack: ["Next.js", "Tailwindcss", "Typescript"],
+    tool: "Typescript",
   },
   {
     id: randy(),
@@ -18,6 +19,7 @@ export const dataInfo = [
     gitUrl: "https://github.com/ChuksJoshuaa/Social-media-app",
     linkUrl: "https://merny.netlify.app/",
     stack: ["React.js", "Node.js/Express.js", "MUI"],
+    tool: "Javascript",
   },
   {
     id: randy(),
@@ -27,6 +29,7 @@ export const dataInfo = [
     gitUrl: "https://github.com/ChuksJoshuaa/React-Syncfusion-dashboard",
     linkUrl: "https://syn-dashboard.netlify.app/",
     stack: ["React.js", "Tailwindcss", "Synfusion-ej"],
+    tool: "Javascript",
   },
   {
     id: randy(),
@@ -36,6 +39,7 @@ export const dataInfo = [
     gitUrl: "https://github.com/ChuksJoshuaa/ecommerce-sanity-cms",
     linkUrl: "https://ecommerce-sanity-cms.vercel.app/",
     stack: ["Next.js", "Tailwindcss", "Sanity-io"],
+    tool: "Javascript",
   },
   {
     id: randy(),
@@ -45,6 +49,7 @@ export const dataInfo = [
     gitUrl: "https://github.com/ChuksJoshuaa/React-comfy-store",
     linkUrl: "https://comfiee.netlify.app/",
     stack: ["React.js", "Styled-components", "Auth0Auth"],
+    tool: "Javascript",
   },
   {
     id: randy(),
@@ -54,6 +59,7 @@ export const dataInfo = [
     gitUrl: "https://github.com/ChuksJoshuaa/Coin-App",
     linkUrl: "https://coin-alert.netlify.app/price",
     stack: ["React.js", "Tailwindcss", "Redux Toolkit"],
+    tool: "Javascript",
   },
   {
     id: randy(),
@@ -63,6 +69,7 @@ export const dataInfo = [
     gitUrl: "https://github.com/ChuksJoshuaa/Fitness-App",
     linkUrl: "https://g-fit.netlify.app/",
     stack: ["React.js", "Rapid Api", "Material UI"],
+    tool: "Javascript",
   },
   {
     id: randy(),
@@ -72,6 +79,7 @@ export const dataInfo = [
     gitUrl: "https://github.com/ChuksJoshuaa/youtube-clone",
     linkUrl: "https://you-clone.netlify.app/",
     stack: ["React.js", "Material UI", "Rapid Api"],
+    tool: "Javascript",
   },
   {
     id: randy(),
@@ -81,5 +89,6 @@ export const dataInfo = [
     gitUrl: "https://github.com/ChuksJoshuaa/React-Razors-site",
     linkUrl: "https://razoy.netlify.app/",
     stack: ["React.js", "Context Api", "Styled-components"],
+    tool: "Javascript",
   },
 ];
