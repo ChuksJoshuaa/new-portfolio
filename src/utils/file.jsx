@@ -105,7 +105,7 @@ export const navData = [
   {
     id: randy(),
     name: "About Me",
-    link: "#about",
+    link: "/about",
   },
   {
     id: randy(),
