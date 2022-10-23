@@ -23,7 +23,7 @@ const Navbar = () => {
 
       <div className={`h-[4em] ${isDark ? "border-b-1 border-red-100" : ""}`}>
         <div className=" flex flex-row justify-between items-center px-2 mt-2">
-          <Link className="flex flex-row " to="/price">
+          <Link className="flex flex-row " to="/">
             <img
               src={imageUrl}
               alt="logo"
