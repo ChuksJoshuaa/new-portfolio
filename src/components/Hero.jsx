@@ -17,9 +17,8 @@ const Hero = () => {
           }`}
         >
           <div style={{ fontFamily: "Lobster Two" }} data-aos={"fade-right"}>
-            <p className="mb-[10%]"></p>
             <div
-              className={`mt-[10%] underline ${isDark ? "bg-red-400" : "bg-[#2caeba]"}`}
+              className={`mt-[5%] md:mt-[17%] underline ${isDark ? "bg-red-400" : "bg-[#2caeba]"}`}
             ></div>
             <p
               className={`text-3xl font-semibold mb-2 leading-tight ${
