@@ -17,6 +17,7 @@ const Hero = () => {
           }`}
         >
           <div style={{ fontFamily: "Lobster Two" }} data-aos={"fade-right"}>
+            <p className="mt-[10%]"></p>
             <div
               className={`underline ${isDark ? "bg-red-400" : "bg-[#2caeba]"}`}
             ></div>
