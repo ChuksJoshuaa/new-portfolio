@@ -12,11 +12,11 @@ const Hero = () => {
     >
       <div id="hero" className="container">
         <div
-          className={`hero-head pt-5 px-2 ${
+          className={`hero-head mt-5 px-2 ${
             isDark ? "" : "bg-gradient-to-r from-cyan-150 to-gray-50"
           }`}
         >
-          <div style={{ fontFamily: "Lobster Two" }}>
+          <div style={{ fontFamily: "Lobster Two" }} data-aos={"fade-right"}>
             <div
               className={`underline ${isDark ? "bg-red-400" : "bg-[#2caeba]"}`}
             ></div>
@@ -54,7 +54,8 @@ const Hero = () => {
               src={imageUrl}
               alt="icon-logo"
               width="600"
-              className={`hero-img opacity-50 mt-10 rounded-lg `}
+              loading="lazy"
+              className={`hero-img opacity-50  rounded-lg `}
             />
           </div>
         </div>
