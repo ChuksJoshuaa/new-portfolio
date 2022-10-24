@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div
       className={`w-full h-full flex flex-col ${
-        isDark ? "bg-main-dark-bg" : "bg-main-bg"
+        isDark ? "bg-main-dark-bg" : "bg-main-bg "
       }`}
     >
       <link
@@ -21,7 +21,7 @@ const Navbar = () => {
         rel="stylesheet"
       ></link>
 
-      <div className={`h-[4em] ${isDark ? "border-b-1 border-red-100" : ""}`}>
+      <div className={`container h-[4em]`}>
         <div className=" flex flex-row justify-between items-center px-2 mt-2">
           <Link className="flex flex-row " to="/">
             <img
@@ -51,7 +51,7 @@ const Navbar = () => {
                 <p
                   className={`${
                     isDark ? "text-red-400" : "text-gray-900"
-                  } text-lg font-medium ml-1 text-capitalize`}
+                  } text-lg font-semibold ml-1 text-capitalize`}
                   style={{ fontFamily: "Lobster Two" }}
                 >
                   {item.name}
@@ -76,7 +76,7 @@ const Navbar = () => {
             <div className="hidden md:block pr-[3em]">
               {DarkMode.map((item) => (
                 <button
-                  className={`mr-2 px-4 py-1 text-3xl text-gray-900`}
+                  className={`side-icon mr-2 px-4 py-1 text-3xl text-gray-900`}
                   key={item.id}
                   onClick={() => dispatch(Theme(true))}
                 >
@@ -86,9 +86,9 @@ const Navbar = () => {
             </div>
           )}
           <div
-            className={`${
+            className={`side-icon ${
               isDark ? "text-red-400" : "text-gray-900"
-            } side-icon text-3xl font-medium ml-1 block md:hidden pointer-events-auto cursor-pointer`}
+            }  text-3xl font-medium ml-1 block md:hidden pointer-events-auto cursor-pointer`}
             onClick={() => dispatch(OpenSidebar(true))}
           >
             <MdViewHeadline />

@@ -102,15 +102,15 @@ export const navData = [
     name: "Home",
     link: "#home",
   },
+  // {
+  //   id: randy(),
+  //   name: "About Me",
+  //   link: "#about",
+  // },
   {
     id: randy(),
-    name: "About Me",
-    link: "/about",
-  },
-  {
-    id: randy(),
-    name: "Portfolio",
-    link: "#portfolio",
+    name: "Projects",
+    link: "#projects",
   },
   {
     id: randy(),
