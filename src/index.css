@@ -40,9 +40,11 @@ body {
 .hero-head {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+/*   grid-gap: 10px;
   align-items: center;
-  /* background: linear-gradient(to right, hsl(186, 100%, 94%), #fff); */
+  background: linear-gradient(to right, hsl(186, 100%, 94%), #fff); */
+  justify-content: end;
+  align-content: end;
 }
 
 .underline {
