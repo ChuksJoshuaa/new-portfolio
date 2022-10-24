@@ -10,13 +10,11 @@ const App = () => {
 
   useEffect(() => {
     AOS.init({
-      duration: 2000,
-      delay: 0,
-      offset: 120,
-      easing: "ease",
+      duration: 1500,
+      easing: "linear",
       once: true,
       mirror: true,
-      anchorPlacement: "top-bottom",
+      offset: 120,
     });
     AOS.refresh();
   }, []);
