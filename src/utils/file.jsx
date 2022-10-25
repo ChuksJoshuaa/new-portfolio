@@ -31,7 +31,7 @@ export const dataInfo = [
       "https://res.cloudinary.com/chuksmbanaso/image/upload/v1653966632/media/Screenshot_190_gtdink.png",
     gitUrl: "https://github.com/ChuksJoshuaa/React-Syncfusion-dashboard",
     linkUrl: "https://syn-dashboard.netlify.app/",
-    stack: ["React.js", "Tailwindcss", "Synfusion-ej"],
+    stack: ["React.js", "Tailwindcss", "Synfusion-ej2"],
     tool: "Javascript",
   },
   {
