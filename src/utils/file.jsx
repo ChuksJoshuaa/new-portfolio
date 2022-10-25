@@ -51,7 +51,7 @@ export const dataInfo = [
       "https://res.cloudinary.com/chuksmbanaso/image/upload/v1645406618/media/Screenshot_32_h7ouwu.png",
     gitUrl: "https://github.com/ChuksJoshuaa/React-comfy-store",
     linkUrl: "https://comfiee.netlify.app/",
-    stack: ["React.js", "Styled-components", "Auth0Auth"],
+    stack: ["React.js", "Styled-components", "Auth"],
     tool: "Javascript",
   },
   {

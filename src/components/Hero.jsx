@@ -12,13 +12,20 @@ const Hero = () => {
     >
       <div id="hero" className="container">
         <div
-          className={`hero-head mt-5 px-2 ${
-            isDark ? "" : "bg-gradient-to-r from-cyan-150 to-gray-50"
-          }`}
+          className={`hero-head mt-5 px-2 `}
+          style={{
+            background: `${
+              isDark
+                ? ""
+                : "linear-gradient(to right, hsl(186, 100%, 94%), #fff)"
+            }`,
+          }}
         >
           <div style={{ fontFamily: "Lobster Two" }} data-aos={"fade-right"}>
             <div
-              className={`mt-[5%] md:mt-[17%] underline ${isDark ? "bg-red-400" : "bg-[#2caeba]"}`}
+              className={`mt-[5%] md:mt-[17%] underline ${
+                isDark ? "bg-red-400" : "bg-[#2caeba]"
+              }`}
             ></div>
             <p
               className={`text-3xl font-semibold mb-2 leading-tight ${
@@ -55,7 +62,11 @@ const Hero = () => {
               alt="icon-logo"
               width="600"
               loading="lazy"
-              className={`hero-img opacity-50  rounded-lg `}
+              className={`hero-img  ${
+                isDark
+                  ? "opacity-30 border-2 border-red-400 rounded-tl-full rounded-tr-full"
+                  : "opacity-100 rounded-full"
+              }`}
             />
           </div>
         </div>
