@@ -42,10 +42,10 @@ const Navbar = () => {
           </Link>
           <div className=" flex-row justify-between hidden md:flex">
             {navData?.map((item) => (
-              <Link
+              <a
                 key={item.id}
                 className="flex flex-row mr-4"
-                to={`/${item.link}`}
+                href={`/${item.link}`}
               >
                 {/* <p className="text-gray-50 text-xl font-bold">{item.icon}</p> */}
                 <p
@@ -56,7 +56,7 @@ const Navbar = () => {
                 >
                   {item.name}
                 </p>
-              </Link>
+              </a>
             ))}
           </div>
 

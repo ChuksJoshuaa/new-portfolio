@@ -12,7 +12,6 @@ const Services = () => {
       className={`w-full h-full flex flex-col ${
         isDark ? "bg-main-dark-bg" : "bg-white"
       }`}
-      id="services"
     >
       <section
         className={`mt-9 py-2 ${isDark ? "" : "bg-[#f1f5f8]"}`}
@@ -22,6 +21,7 @@ const Services = () => {
           className={`text-center mt-8 fw-bold text-2xl md:text-4xl mb-2 ${
             isDark ? "text-red-400" : "text-gray-900"
           }`}
+          id="services"
         >
           Services
         </h3>
