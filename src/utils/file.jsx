@@ -60,7 +60,7 @@ export const dataInfo = [
     imageUrl:
       "https://res.cloudinary.com/chuksmbanaso/image/upload/v1666452401/media/Screenshot_277_zeamtr.png",
     gitUrl: "https://github.com/ChuksJoshuaa/Coin-App",
-    linkUrl: "https://coin-alert.netlify.app/price",
+    linkUrl: "https://coin-alert.netlify.app",
     stack: ["React.js", "Tailwindcss", "Redux Toolkit"],
     tool: "Javascript",
   },
