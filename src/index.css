@@ -139,7 +139,7 @@ body {
 }
 
 .page-home {
-  height: 300px;
+  height: 250px;
 }
 
 #instance {
@@ -281,6 +281,10 @@ Services
     -moz-column-gap: 2rem;
     column-gap: 2rem;
   }
+}
+
+.services-center {
+  font-family: 'Rajdhani', sans-serif;
 }
 @media screen and (min-width: 992px) {
   .services-center {

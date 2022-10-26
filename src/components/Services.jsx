@@ -15,20 +15,21 @@ const Services = () => {
     >
       <section
         className={`mt-9 py-2 ${isDark ? "" : "bg-[#f1f5f8]"}`}
-        style={{ fontFamily: "Lobster Two" }}
       >
         <h3
           className={`text-center mt-8 fw-bold text-2xl md:text-4xl mb-2 ${
             isDark ? "text-red-400" : "text-gray-900"
           }`}
           id="services"
+          style={{ fontFamily: "Lobster Two" }}
         >
           Services
         </h3>
         <div
           className={`underline ${
             isDark ? "bg-red-400" : "bg-[#2caeba]"
-          } text-center`}
+            } text-center`}
+          // style={{ fontFamily: `'Rajdhani', sans-serif` }}
         ></div>
         <div className="container services-center">
           <article
@@ -52,9 +53,9 @@ const Services = () => {
               } text-center`}
             ></div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates corrupti animi saepe quasi excepturi cupiditate
-              voluptate dolor sed obcaecati vero.
+              Building, Directing and participating in programming activities, monitoring,
+              and evaluating system performance, and designing and implementing
+              new programs and features.
             </p>
           </article>
           <article
@@ -78,9 +79,8 @@ const Services = () => {
               } text-center`}
             ></div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates corrupti animi saepe quasi excepturi cupiditate
-              voluptate dolor sed obcaecati vero.
+              Built products that delights customer and identifying problems uncovered by users feedback and troubleshooting the issues to
+              ensure 100% accuracy. My specialty lies in customer-facing products.
             </p>
           </article>
           <article
@@ -104,9 +104,9 @@ const Services = () => {
               } text-center`}
             ></div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates corrupti animi saepe quasi excepturi cupiditate
-              voluptate dolor sed obcaecati vero.
+              Design and implement Python code using the Django framework. Identify and fix bottlenecks
+              that may arise from inefficient code. Create a wide variety
+              of unit tests to verify the functionality of software.
             </p>
           </article>
         </div>
