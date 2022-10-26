@@ -30,14 +30,14 @@ const Projects = () => {
         <div className="page-baby">
           {dataInfo.slice(0, 6).map((item) => (
             <div
-              className={`head-container ${
+              className={`rounded-tl-2xl rounded-tr-2xl head-container ${
                 isDark ? "border-1 border-red-200" : "border-1 border-gray-200"
               }`}
               key={item.id}
-              data-aos={"zoom-in"}
+              // data-aos={"zoom-in"}
             >
               <div
-                className="page-home"
+                className="rounded-tl-2xl rounded-tr-2xl page-home"
                 style={{
                   background: `url(${item.imageUrl}`,
                   backgroundSize: "cover",

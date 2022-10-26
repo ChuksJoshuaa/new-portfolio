@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import imageUrl from "../assets/hero.jpg";
+import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Hero = () => {
   const { isDark } = useSelector((state) => state.data);
@@ -11,50 +12,84 @@ const Hero = () => {
       }`}
     >
       <div id="hero" className="container">
+        <div className={`h-[2em] mt-3 ${isDark ? "" : "bg-white"}`} />
         <div
           className={`hero-head mt-5 px-2 `}
           style={{
             background: `${
-              isDark
-                ? ""
-                : "linear-gradient(to right, hsl(186, 100%, 94%), #fff)"
+              isDark ? "" : "linear-gradient(to left,hsl(186, 100%, 94%), #fff)"
             }`,
           }}
         >
           <div style={{ fontFamily: "Lobster Two" }} data-aos={"fade-right"}>
-            <div
-              className={`mt-[5%] md:mt-[17%] underline ${
-                isDark ? "bg-red-400" : "bg-[#2caeba]"
-              }`}
-            ></div>
-            <p
-              className={`text-3xl font-semibold mb-2 leading-tight ${
-                isDark ? "text-red-400" : "text-black"
-              }`}
-            >
-              Hello &#128400;,
-            </p>
-            <h3
-              className={`text-3xl font-medium mb-2 leading-tight ${
-                isDark ? "text-red-400" : "text-black"
-              }`}
-            >
-              I'm Chukwudi Joshua
-            </h3>
-            <h3
-              className={`leading-tight text-xl capitalize mb-4 ${
-                isDark ? "text-red-400" : "text-black"
-              }`}
-            >
-              Software Engineer
-            </h3>
-            <button
-              className={`btn mt-2 leading-tight capitalize ${
-                isDark ? "bg-red-200 text-red-400" : "bg-[#2caeba] text-gray-50"
-              }`}
-            >
-              <a href="#contact"> Contact Me</a>
-            </button>
+            <div className="flex flex-row justify-start">
+              <div className="flex mt-[5%] md:mt-[22%] flex-col items-center pr-6">
+                <a
+                  href="https://github.com/ChuksJoshuaa"
+                  target="_blank"
+                  className={`pb-5 text-xl md:text-2xl font-bold cursor-pointer ${
+                    isDark ? "text-red-400" : ""
+                  }`}
+                >
+                  <FaGithub />
+                </a>
+                <a
+                  href="https://twitter.com/ChuksJoshuaa"
+                  target="_blank"
+                  className={`pb-5 text-xl md:text-2xl font-bold cursor-pointer ${
+                    isDark ? "text-red-400" : ""
+                  }`}
+                >
+                  <FaTwitter />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/chuks-joshuaa"
+                  target="_blank"
+                  className={`text-xl md:text-2xl font-bold cursor-pointer ${
+                    isDark ? "text-red-400" : ""
+                  }`}
+                >
+                  <FaLinkedin />
+                </a>
+              </div>
+              <div>
+                <div
+                  className={`mt-[5%] md:mt-[43%] underlinee ${
+                    isDark ? "bg-red-400" : "bg-[#2caeba]"
+                  }`}
+                ></div>
+                <p
+                  className={`text-3xl font-semibold mb-2 leading-tight ${
+                    isDark ? "text-red-400" : "text-black"
+                  }`}
+                >
+                  Hello &#128400;,
+                </p>
+                <h3
+                  className={`text-3xl font-medium mb-2 leading-tight ${
+                    isDark ? "text-red-400" : "text-black"
+                  }`}
+                >
+                  I'm Chukwudi Joshua
+                </h3>
+                <h3
+                  className={`leading-tight text-xl capitalize mb-4 ${
+                    isDark ? "text-red-400" : "text-black"
+                  }`}
+                >
+                  Software Engineer
+                </h3>
+                <button
+                  className={`btn mt-2 leading-tight capitalize ${
+                    isDark
+                      ? "bg-red-200 text-red-400"
+                      : "bg-[#2caeba] text-gray-50"
+                  }`}
+                >
+                  <a href="#contact"> Contact Me</a>
+                </button>
+              </div>
+            </div>
           </div>
           <div>
             <img
@@ -65,7 +100,7 @@ const Hero = () => {
               className={`hero-img  ${
                 isDark
                   ? "opacity-30 border-2 border-red-400 rounded-tl-full rounded-tr-full"
-                  : "opacity-100 rounded-full"
+                  : "opacity-100 rounded-tl-full rounded-tr-full"
               }`}
             />
           </div>
