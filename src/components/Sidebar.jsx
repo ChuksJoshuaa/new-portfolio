@@ -26,7 +26,7 @@ const Sidebar = () => {
           <Link href="/">
             <a>
               <div className={`flex justify-between`}>
-                <div className="w-[70px]">
+                <div className="">
                   <img
                     className={`rounded-full mb-2 ${
                       isDark
@@ -39,7 +39,7 @@ const Sidebar = () => {
                   />
                 </div>
                 <div
-                  className={`mt-2 text-2xl md:text-3xl  ${
+                  className={`mt-2 text-3xl ${
                     isDark ? "text-red-400" : "text-gray-900"
                   } `}
                   style={{ fontFamily: "Lobster Two" }}
@@ -62,12 +62,12 @@ const Sidebar = () => {
         </div>
 
         <div className="flex flex-col justify-start mb-10 border-r-2 border-gray-100">
-          <div className="">
+          <div className="mt-5">
             <div className="p-3 flex flex-col justify-between">
               {navData?.map((item) => (
                 <a
                   key={item.id}
-                  className="pb-5 flex flex-row mr-4"
+                  className="pb-5 mb-5 flex flex-row mr-4"
                   href={`/${item.link}`}
                   onClick={() => dispatch(OpenSidebar(false))}
                 >
