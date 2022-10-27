@@ -13,7 +13,7 @@ const Projects = () => {
       }`}
       id="projects"
     >
-      <div className="home-container" id="projects">
+      <div className="home-container">
         <h3
           className={`text-center mt-8 fw-bold text-2xl md:text-4xl mb-2 ${
             isDark ? "text-red-400" : "text-gray-900"
@@ -55,21 +55,21 @@ const Projects = () => {
                   </h5>
                   <div className="instance">
                     <p
-                      className={`fw-semibold ${
+                      className={`fw-bold ${
                         isDark ? "bg-red-200 text-gray-900" : "bg-main-bg"
                       }`}
                     >
                       {item.stack[0]}
                     </p>
                     <p
-                      className={`fw-semibold ${
+                      className={`fw-bold ${
                         isDark ? "bg-red-200 text-gray-900" : "bg-main-bg"
                       }`}
                     >
                       {item.stack[1]}
                     </p>
                     <p
-                      className={`fw-semibold ${
+                      className={`fw-bold ${
                         isDark ? "bg-red-200 text-gray-900" : "bg-main-bg"
                       }`}
                     >

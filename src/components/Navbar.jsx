@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import imageUrl from "../assets/logo.jpg";
 import { navData, LightMode, DarkMode } from "../utils/file";
 import { Link } from "react-router-dom";
@@ -7,8 +7,25 @@ import { Theme, OpenSidebar } from "../redux/features/dataSlice";
 import { MdViewHeadline } from "react-icons/md";
 
 const Navbar = () => {
-  const { isDark } = useSelector((state) => state.data);
+  const { isDark, isOpen } = useSelector((state) => state.data);
   const dispatch = useDispatch();
+
+  const [navPosition, setNavPosition] = useState(0);
+
+  const scrollHeight = window.pageYOffset;
+
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setNavPosition(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [navPosition]);
 
   return (
     <div
@@ -21,13 +38,17 @@ const Navbar = () => {
         rel="stylesheet"
       ></link>
 
-      <div className={`container h-[4em]`}>
+      <div
+        className={`container hidden md:block h-[4em] ${
+          scrollHeight && !isOpen ? "fixed-nav md:px-1 lg:px-3" : ""
+        }`}
+      >
         <div className=" flex flex-row justify-between items-center px-2 mt-2">
           <Link className="flex flex-row " to="/">
             <img
               src={imageUrl}
               alt="logo"
-              className={`rounded-full ${
+              className={`rounded-full mb-2 ${
                 isDark ? "border-2 border-red-400" : "border-2 border-gray-800"
               }  h-[52px] w-[52px]`}
             />
@@ -47,10 +68,11 @@ const Navbar = () => {
                 className="flex flex-row mr-4"
                 href={`/${item.link}`}
               >
-                {/* <p className="text-gray-50 text-xl font-bold">{item.icon}</p> */}
                 <p
                   className={`${
-                    isDark ? "text-red-400" : "text-gray-900"
+                    isDark
+                      ? "text-red-400 hover:border-b-2 border-red-400"
+                      : "text-gray-900 hover:border-b-2 border-gray-900"
                   } text-lg font-semibold ml-1 text-capitalize`}
                   style={{ fontFamily: "Lobster Two" }}
                 >
@@ -61,10 +83,10 @@ const Navbar = () => {
           </div>
 
           {isDark ? (
-            <div className="hidden md:block pr-[3em]">
+            <div className="pr-[3em]">
               {LightMode.map((item) => (
                 <button
-                  className="mr-2 px-4 py-1 text-3xl text-red-400"
+                  className="side-icon mr-2 px-4 py-1 text-3xl text-red-400"
                   key={item.id}
                   onClick={() => dispatch(Theme(false))}
                 >
@@ -73,7 +95,7 @@ const Navbar = () => {
               ))}
             </div>
           ) : (
-            <div className="hidden md:block pr-[3em]">
+            <div className="pr-[3em]">
               {DarkMode.map((item) => (
                 <button
                   className={`side-icon mr-2 px-4 py-1 text-3xl text-gray-900`}
@@ -85,6 +107,31 @@ const Navbar = () => {
               ))}
             </div>
           )}
+        </div>
+      </div>
+      <div
+        className={`${isOpen ? "hidden" : "block md:hidden"} ${
+          scrollHeight ? "fixed-nav md:px-1 lg:px-3" : ""
+        }`}
+      >
+        <div className=" flex flex-row justify-between items-center px-4 mt-2">
+          <Link className="flex flex-row " to="/">
+            <img
+              src={imageUrl}
+              alt="logo"
+              className={`rounded-full mb-2 ${
+                isDark ? "border-2 border-red-400" : "border-2 border-gray-800"
+              }  h-[52px] w-[52px]`}
+            />
+            <p
+              className={`mt-2 text-2xl md:text-3xl  ${
+                isDark ? "text-red-400" : "text-gray-900"
+              } `}
+              style={{ fontFamily: "Lobster Two" }}
+            >
+              D-coder
+            </p>
+          </Link>
           <div
             className={`side-icon ${
               isDark ? "text-red-400" : "text-gray-900"

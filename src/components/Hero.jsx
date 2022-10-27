@@ -97,7 +97,7 @@ const Hero = () => {
               alt="icon-logo"
               width="600"
               loading="lazy"
-              className={`hero-img  ${
+              className={`hero-img float-right ${
                 isDark
                   ? "opacity-30 border-2 border-red-400 rounded-tl-full rounded-tr-full"
                   : "opacity-100 rounded-tl-full rounded-tr-full"
