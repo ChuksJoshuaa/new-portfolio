@@ -2,6 +2,8 @@ import React from "react";
 import { useSelector } from "react-redux";
 import imageUrl from "../assets/hero.jpg";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Hero = () => {
   const { isDark } = useSelector((state) => state.data);
@@ -92,11 +94,11 @@ const Hero = () => {
             </div>
           </div>
           <div>
-            <img
+            <LazyLoadImage
               src={imageUrl}
               alt="icon-logo"
               width="600"
-              loading="lazy"
+              effect="blur"
               className={`hero-img float-right ${
                 isDark
                   ? "opacity-30 border-2 border-red-400 rounded-tl-full rounded-tr-full"
