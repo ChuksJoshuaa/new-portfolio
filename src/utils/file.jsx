@@ -18,7 +18,7 @@ export const dataInfo = [
     id: randy(),
     name: "Crytocurrency Alert System",
     imageUrl:
-      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1666452401/media/Screenshot_277_zeamtr.png",
+      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1667049509/media/Screenshot_280_nlef0n.png",
     gitUrl: "https://github.com/ChuksJoshuaa/Coin-App",
     linkUrl: "https://coin-alert.netlify.app",
     stack: ["React.js", "Tailwindcss", "Redux Toolkit"],
@@ -26,12 +26,12 @@ export const dataInfo = [
   },
   {
     id: randy(),
-    name: "Dog Care Web Application",
+    name: "Comfy Ecommerce Store",
     imageUrl:
-      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1666851706/media/Screenshot_50_jxbyw9.png",
-    gitUrl: "https://github.com/ChuksJoshuaa/Dog-Care-Web-Application",
-    linkUrl: "https://doggoo.netlify.app",
-    stack: ["React.js", "Styled-components", "Api"],
+      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1645406618/media/Screenshot_32_h7ouwu.png",
+    gitUrl: "https://github.com/ChuksJoshuaa/React-comfy-store",
+    linkUrl: "https://comfiee.netlify.app/",
+    stack: ["React.js", "Styled-components", "Auth"],
     tool: "Javascript",
   },
   {
@@ -64,14 +64,15 @@ export const dataInfo = [
     stack: ["Next.js", "Tailwindcss", "Sanity-io"],
     tool: "Javascript",
   },
+
   {
     id: randy(),
-    name: "Comfy Ecommerce Store",
+    name: "Dog Care Web Application",
     imageUrl:
-      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1645406618/media/Screenshot_32_h7ouwu.png",
-    gitUrl: "https://github.com/ChuksJoshuaa/React-comfy-store",
-    linkUrl: "https://comfiee.netlify.app/",
-    stack: ["React.js", "Styled-components", "Auth"],
+      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1666851706/media/Screenshot_50_jxbyw9.png",
+    gitUrl: "https://github.com/ChuksJoshuaa/Dog-Care-Web-Application",
+    linkUrl: "https://doggoo.netlify.app",
+    stack: ["React.js", "Styled-components", "Api"],
     tool: "Javascript",
   },
   {

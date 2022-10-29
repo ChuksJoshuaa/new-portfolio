@@ -1,6 +1,5 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
-import { AiFillHome } from "react-icons/ai";
 import { navData, LightMode, DarkMode } from "../utils/file";
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
@@ -24,30 +23,28 @@ const Sidebar = () => {
           }`}
         >
           <Link href="/">
-            <a>
-              <div className={`flex justify-between`}>
-                <div className="">
-                  <img
-                    className={`rounded-full mb-2 ${
-                      isDark
-                        ? "border-2 border-red-400"
-                        : "border-2 border-gray-800"
-                    }  h-[52px] w-[52px]`}
-                    src={imageUrl}
-                    alt="portfolio"
-                    layout="responsive"
-                  />
-                </div>
-                <div
-                  className={`mt-2 text-3xl ${
-                    isDark ? "text-red-400" : "text-gray-900"
-                  } `}
-                  style={{ fontFamily: "Lobster Two" }}
-                >
-                  D-coder
-                </div>
+            <div className={`flex justify-between`}>
+              <div className="">
+                <img
+                  className={`rounded-full mb-2 ${
+                    isDark
+                      ? "border-2 border-red-400"
+                      : "border-2 border-gray-800"
+                  }  h-[52px] w-[52px]`}
+                  src={imageUrl}
+                  alt="portfolio"
+                  layout="responsive"
+                />
               </div>
-            </a>
+              <div
+                className={`mt-2 text-3xl ${
+                  isDark ? "text-red-400" : "text-gray-900"
+                } `}
+                style={{ fontFamily: "Lobster Two" }}
+              >
+                D-coder
+              </div>
+            </div>
           </Link>
           <p
             className="cursor-pointer"

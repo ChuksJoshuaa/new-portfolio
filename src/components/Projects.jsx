@@ -28,7 +28,7 @@ const Projects = () => {
           } text-center`}
         ></div>
         <div className="page-baby">
-          {dataInfo.slice(0, 6).map((item) => (
+          {dataInfo.slice(0, 9).map((item) => (
             <div
               className={`rounded-tl-2xl rounded-tr-2xl head-container ${
                 isDark ? "border-1 border-red-200" : "border-1 border-gray-200"
