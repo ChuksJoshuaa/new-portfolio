@@ -72,7 +72,7 @@ const Hero = () => {
                     isDark ? "text-red-400" : "text-black"
                   }`}
                 >
-                  I'm Chukwudi Joshua
+                  I'm Chuck Joshua
                 </h3>
                 <h3
                   className={`leading-tight text-xl capitalize mb-4 ${
