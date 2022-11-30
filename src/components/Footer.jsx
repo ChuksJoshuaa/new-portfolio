@@ -64,7 +64,7 @@ const Footer = () => {
           </li>
         </ul>
         <p className={`px-2 ${isDark ? "text-red-400" : "text-gray-900"}`}>
-          copyright &copy; Chuks Joshua Portfolio
+          copyright &copy; Chuck Joshua Portfolio
           <span> {new Date().getFullYear()}</span>. all rights reserved
         </p>
       </div>
