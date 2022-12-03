@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navbar, Footer, Sidebar } from "./components";
-import { Home, About } from "./pages";
+import { Home, About, Error } from "./pages";
 import { useSelector } from "react-redux";
 import AOS from "aos";
 
@@ -25,6 +25,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
     </Router>
