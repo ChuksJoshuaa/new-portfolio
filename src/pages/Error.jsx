@@ -21,7 +21,7 @@ const Error = () => {
         >
           Sorry, the page you tried cannot be found{" "}
         </h3>
-        <Link to="./" className="btn">
+        <Link to="./" className="error-btn">
           BACK HOME
         </Link>
       </section>
