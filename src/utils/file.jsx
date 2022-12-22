@@ -14,16 +14,16 @@ export const dataInfo = [
     stack: ["Next.js", "Tailwindcss", "Typescript"],
     tool: "Typescript",
   },
-//   {
-//     id: randy(),
-//     name: "Crytocurrency Alert System",
-//     imageUrl:
-//       "https://res.cloudinary.com/chuksmbanaso/image/upload/v1667049509/media/Screenshot_280_nlef0n.png",
-//     gitUrl: "https://github.com/ChuksJoshuaa/Coin-App",
-//     linkUrl: "https://coin-alert.netlify.app",
-//     stack: ["React.js", "Tailwindcss", "Redux Toolkit"],
-//     tool: "Javascript",
-//   },
+  {
+    id: randy(),
+    name: "Crytocurrency Alert System",
+    imageUrl:
+      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1667049509/media/Screenshot_280_nlef0n.png",
+    gitUrl: "https://github.com/ChuksJoshuaa/Coin-App",
+    linkUrl: "https://coin-alert.netlify.app",
+    stack: ["React.js", "Tailwindcss", "Redux Toolkit"],
+    tool: "Javascript",
+  },
   {
     id: randy(),
     name: "Hotel Web Application",
@@ -32,7 +32,7 @@ export const dataInfo = [
     gitUrl: "https://github.com/ChuksJoshuaa/Hotel-Projects",
     linkUrl: "https://hotel-projects.vercel.app/",
     stack: ["React.js", "Typescript", "GraphQL"],
-    tool: "Javascript",
+    tool: "Typescript",
   },
   {
     id: randy(),
@@ -75,16 +75,16 @@ export const dataInfo = [
     tool: "Javascript",
   },
 
-  {
-    id: randy(),
-    name: "Dog Care Web Application",
-    imageUrl:
-      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1666851706/media/Screenshot_50_jxbyw9.png",
-    gitUrl: "https://github.com/ChuksJoshuaa/Dog-Care-Web-Application",
-    linkUrl: "https://doggoo.netlify.app",
-    stack: ["React.js", "Styled-components", "Api"],
-    tool: "Javascript",
-  },
+//   {
+//     id: randy(),
+//     name: "Dog Care Web Application",
+//     imageUrl:
+//       "https://res.cloudinary.com/chuksmbanaso/image/upload/v1666851706/media/Screenshot_50_jxbyw9.png",
+//     gitUrl: "https://github.com/ChuksJoshuaa/Dog-Care-Web-Application",
+//     linkUrl: "https://doggoo.netlify.app",
+//     stack: ["React.js", "Styled-components", "Api"],
+//     tool: "Javascript",
+//   },
   {
     id: randy(),
     name: "Fitness Application",
