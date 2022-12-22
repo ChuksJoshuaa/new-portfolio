@@ -14,14 +14,24 @@ export const dataInfo = [
     stack: ["Next.js", "Tailwindcss", "Typescript"],
     tool: "Typescript",
   },
+//   {
+//     id: randy(),
+//     name: "Crytocurrency Alert System",
+//     imageUrl:
+//       "https://res.cloudinary.com/chuksmbanaso/image/upload/v1667049509/media/Screenshot_280_nlef0n.png",
+//     gitUrl: "https://github.com/ChuksJoshuaa/Coin-App",
+//     linkUrl: "https://coin-alert.netlify.app",
+//     stack: ["React.js", "Tailwindcss", "Redux Toolkit"],
+//     tool: "Javascript",
+//   },
   {
     id: randy(),
-    name: "Crytocurrency Alert System",
+    name: "Hotel Web Application",
     imageUrl:
-      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1667049509/media/Screenshot_280_nlef0n.png",
-    gitUrl: "https://github.com/ChuksJoshuaa/Coin-App",
-    linkUrl: "https://coin-alert.netlify.app",
-    stack: ["React.js", "Tailwindcss", "Redux Toolkit"],
+      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1670736915/media/User/images/Screenshot_295_jy160t.png",
+    gitUrl: "https://github.com/ChuksJoshuaa/Hotel-Projects",
+    linkUrl: "https://hotel-projects.vercel.app/",
+    stack: ["React.js", "Typescript", "GraphQL"],
     tool: "Javascript",
   },
   {
