@@ -46,6 +46,16 @@ export const dataInfo = [
   },
   {
     id: randy(),
+    name: "Dog Care Project",
+    imageUrl:
+      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1666851706/media/Screenshot_50_jxbyw9.png",
+    gitUrl: "https://github.com/ChuksJoshuaa/Dog-Care-Project",
+    linkUrl: "https://doggoo.netlify.app",
+    stack: ["React.js", "Styled-components", "Api"],
+    tool: "Javascript",
+  },
+  {
+    id: randy(),
     name: "Social Media Application",
     imageUrl:
       "https://res.cloudinary.com/chuksmbanaso/image/upload/v1666450763/media/Screenshot_274_b3pxuz.png",
@@ -75,16 +85,16 @@ export const dataInfo = [
     tool: "Javascript",
   },
 
-//   {
-//     id: randy(),
-//     name: "Dog Care Web Application",
-//     imageUrl:
-//       "https://res.cloudinary.com/chuksmbanaso/image/upload/v1666851706/media/Screenshot_50_jxbyw9.png",
-//     gitUrl: "https://github.com/ChuksJoshuaa/Dog-Care-Web-Application",
-//     linkUrl: "https://doggoo.netlify.app",
-//     stack: ["React.js", "Styled-components", "Api"],
-//     tool: "Javascript",
-//   },
+  {
+    id: randy(),
+    name: "Dog Care Web Application",
+    imageUrl:
+      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1666851706/media/Screenshot_50_jxbyw9.png",
+    gitUrl: "https://github.com/ChuksJoshuaa/Dog-Care-Project",
+    linkUrl: "https://doggoo.netlify.app",
+    stack: ["React.js", "Styled-components", "Api"],
+    tool: "Javascript",
+  },
   {
     id: randy(),
     name: "Fitness Application",
@@ -95,16 +105,16 @@ export const dataInfo = [
     stack: ["React.js", "Rapid Api", "Material UI"],
     tool: "Javascript",
   },
-  {
-    id: randy(),
-    name: "You-tube Clone",
-    imageUrl:
-      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1662302556/media/Screenshot_233_xei9a2.png",
-    gitUrl: "https://github.com/ChuksJoshuaa/youtube-clone",
-    linkUrl: "https://you-clone.netlify.app/",
-    stack: ["React.js", "Material UI", "Rapid Api"],
-    tool: "Javascript",
-  },
+//   {
+//     id: randy(),
+//     name: "You-tube Clone",
+//     imageUrl:
+//       "https://res.cloudinary.com/chuksmbanaso/image/upload/v1662302556/media/Screenshot_233_xei9a2.png",
+//     gitUrl: "https://github.com/ChuksJoshuaa/youtube-clone",
+//     linkUrl: "https://you-clone.netlify.app/",
+//     stack: ["React.js", "Material UI", "Rapid Api"],
+//     tool: "Javascript",
+//   },
   {
     id: randy(),
     name: "React Razors Site",
