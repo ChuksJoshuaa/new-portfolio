@@ -26,22 +26,32 @@ export const dataInfo = [
   },
   {
     id: randy(),
-    name: "Hotel Web Application",
-    imageUrl:
-      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1670736915/media/User/images/Screenshot_295_jy160t.png",
-    gitUrl: "https://github.com/ChuksJoshuaa/Hotel-Projects",
-    linkUrl: "https://hotel-projects.vercel.app/",
-    stack: ["React.js", "Typescript", "GraphQL"],
-    tool: "Typescript",
-  },
-  {
-    id: randy(),
     name: "Comfy Ecommerce Store",
     imageUrl:
       "https://res.cloudinary.com/chuksmbanaso/image/upload/v1645406618/media/Screenshot_32_h7ouwu.png",
     gitUrl: "https://github.com/ChuksJoshuaa/React-comfy-store",
     linkUrl: "https://comfiee.netlify.app/",
     stack: ["React.js", "Styled-components", "Auth"],
+    tool: "Javascript",
+  },
+  {
+    id: randy(),
+    name: "React Razors Site",
+    imageUrl:
+      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1644267958/media/Screenshot_21_ufuirr.png",
+    gitUrl: "https://github.com/ChuksJoshuaa/React-Razors-site",
+    linkUrl: "https://razoy.netlify.app/",
+    stack: ["React.js", "Context Api", "Styled-components"],
+    tool: "Javascript",
+  },
+  {
+    id: randy(),
+    name: "Admin Synfusion Dashboard",
+    imageUrl:
+      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1653966632/media/Screenshot_190_gtdink.png",
+    gitUrl: "https://github.com/ChuksJoshuaa/React-Syncfusion-dashboard",
+    linkUrl: "https://syn-dashboard.netlify.app/",
+    stack: ["React.js", "Tailwindcss", "Synfusion-ej2"],
     tool: "Javascript",
   },
   {
@@ -64,16 +74,7 @@ export const dataInfo = [
     stack: ["React.js", "Node.js/Express.js", "MUI"],
     tool: "Javascript",
   },
-  {
-    id: randy(),
-    name: "Admin Synfusion Dashboard",
-    imageUrl:
-      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1653966632/media/Screenshot_190_gtdink.png",
-    gitUrl: "https://github.com/ChuksJoshuaa/React-Syncfusion-dashboard",
-    linkUrl: "https://syn-dashboard.netlify.app/",
-    stack: ["React.js", "Tailwindcss", "Synfusion-ej2"],
-    tool: "Javascript",
-  },
+  
   {
     id: randy(),
     name: "Full Stack Sanity Project",
@@ -104,15 +105,15 @@ export const dataInfo = [
     stack: ["React.js", "Material UI", "Rapid Api"],
     tool: "Javascript",
   },
-  {
+    {
     id: randy(),
-    name: "React Razors Site",
+    name: "Hotel Web Application",
     imageUrl:
-      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1644267958/media/Screenshot_21_ufuirr.png",
-    gitUrl: "https://github.com/ChuksJoshuaa/React-Razors-site",
-    linkUrl: "https://razoy.netlify.app/",
-    stack: ["React.js", "Context Api", "Styled-components"],
-    tool: "Javascript",
+      "https://res.cloudinary.com/chuksmbanaso/image/upload/v1670736915/media/User/images/Screenshot_295_jy160t.png",
+    gitUrl: "https://github.com/ChuksJoshuaa/Hotel-Projects",
+    linkUrl: "https://hotel-projects.vercel.app/",
+    stack: ["React.js", "Typescript", "GraphQL"],
+    tool: "Typescript",
   },
 ];
 
