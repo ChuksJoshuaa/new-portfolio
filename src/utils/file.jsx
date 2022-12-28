@@ -41,7 +41,7 @@ export const dataInfo = [
       "https://res.cloudinary.com/chuksmbanaso/image/upload/v1644267958/media/Screenshot_21_ufuirr.png",
     gitUrl: "https://github.com/ChuksJoshuaa/React-Razors-site",
     linkUrl: "https://razoy.netlify.app/",
-    stack: ["React.js", "Context Api", "Styled-components"],
+    stack: ["React.js", "Api", "Styled-components"],
     tool: "Javascript",
   },
   {
